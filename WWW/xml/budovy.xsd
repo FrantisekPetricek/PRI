@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:complexType name="Typ">
+    <xs:sequence>
+      <xs:element name="nazev" type="xs:string"/>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:integer" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="Mistnost">
+    <xs:sequence>
+      <xs:element name="kod" type="xs:string"/>
+      <xs:element name="podlazi" type="xs:integer"/>
+      <xs:element name="typ" type="Typ"/>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:integer" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="Budova">
+    <xs:sequence>
+      <xs:element name="kod" type="xs:string"/>
+      <xs:element name="nazev" type="xs:string"/>
+      <xs:element name="mistnosti">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="mistnost" type="Mistnost" maxOccurs="unbounded"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:integer" use="required"/>
+  </xs:complexType>
+
+  <xs:element name="budovy">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="budova" type="Budova" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

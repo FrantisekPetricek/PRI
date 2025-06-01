@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<budovy>
+  <budova id="1">
+    <kod>TEC</kod>
+    <nazev>Technologické centrum</nazev>
+    <mistnosti>
+      <mistnost id="1">
+        <kod>TEC-2-KAN01</kod>
+        <podlazi>2</podlazi>
+        <typ id="1">
+          <nazev>Kancelář</nazev>
+        </typ>
+      </mistnost>
+      <mistnost id="6">
+        <kod>TEC-2-KAN02</kod>
+        <podlazi>2</podlazi>
+        <typ id="1">
+          <nazev>Kancelář</nazev>
+        </typ>
+      </mistnost>
+      <mistnost id="2">
+        <kod>TEC-1-SKL01</kod>
+        <podlazi>1</podlazi>
+        <typ id="4">
+          <nazev>Sklad</nazev>
+        </typ>
+      </mistnost>
+      <mistnost id="7">
+        <kod>TEC-0-ZAS01</kod>
+        <podlazi>0</podlazi>
+        <typ id="6">
+          <nazev>Zasedací místnost</nazev>
+        </typ>
+      </mistnost>
+    </mistnosti>
+  </budova>
+  <budova id="2">
+    <kod>VYB</kod>
+    <nazev>Výuková budova</nazev>
+    <mistnosti>
+      <mistnost id="4">
+        <kod>VYB-0-LAB01</kod>
+        <podlazi>0</podlazi>
+        <typ id="5">
+          <nazev>Laboratoř</nazev>
+        </typ>
+      </mistnost>
+      <mistnost id="9">
+        <kod>VYB-1-LAB02</kod>
+        <podlazi>1</podlazi>
+        <typ id="5">
+          <nazev>Laboratoř</nazev>
+        </typ>
+      </mistnost>
+      <mistnost id="3">
+        <kod>VYB-1-UČE01</kod>
+        <podlazi>1</podlazi>
+        <typ id="2">
+          <nazev>Učebna</nazev>
+        </typ>
+      </mistnost>
+      <mistnost id="8">
+        <kod>VYB-1-UČE02</kod>
+        <podlazi>1</podlazi>
+        <typ id="2">
+          <nazev>Učebna</nazev>
+        </typ>
+      </mistnost>
+      <mistnost id="10">
+        <kod>VYB-3-UČE03</kod>
+        <podlazi>3</podlazi>
+        <typ id="2">
+          <nazev>Učebna</nazev>
+        </typ>
+      </mistnost>
+      <mistnost id="5">
+        <kod>VYB-3-WC01</kod>
+        <podlazi>3</podlazi>
+        <typ id="3">
+          <nazev>WC</nazev>
+        </typ>
+      </mistnost>
+    </mistnosti>
+  </budova>
+  <budova id="3">
+    <kod>ADB</kod>
+    <nazev>Administrativní budova</nazev>
+    <mistnosti>
+      <mistnost id="11">
+        <kod>ADB-0-KAN01</kod>
+        <podlazi>0</podlazi>
+        <typ id="1">
+          <nazev>Kancelář</nazev>
+        </typ>
+      </mistnost>
+      <mistnost id="21">
+        <kod>ADB-3-KUC01</kod>
+        <podlazi>3</podlazi>
+        <typ id="7">
+          <nazev>Kuchyň</nazev>
+        </typ>
+      </mistnost>
+      <mistnost id="16">
+        <kod>ADB-2-SKL01</kod>
+        <podlazi>2</podlazi>
+        <typ id="4">
+          <nazev>Sklad</nazev>
+        </typ>
+      </mistnost>
+      <mistnost id="29">
+        <kod>ADB-0-SKL02</kod>
+        <podlazi>0</podlazi>
+        <typ id="4">
+          <nazev>Sklad</nazev>
+        </typ>
+      </mistnost>
+      <mistnost id="23">
+        <kod>ADB-3-UČE01</kod>
+        <podlazi>3</podlazi>
+        <typ id="2">
+          <nazev>Učebna</nazev>
+        </typ>
+      </mistnost>
+      <mistnost id="24">
+        <kod>ADB-0-UČE02</kod>
+        <podlazi>0</podlazi>
+        <typ id="2">
+          <nazev>Učebna</nazev>
+        </typ>
+      </mistnost>
+      <mistnost id="25">
+        <kod>ADB-2-ZAS01</kod>
+        <podlazi>2</podlazi>
+        <typ id="6">
+          <nazev>Zasedací místnost</nazev>
+        </typ>
+      </mistnost>
+    </mistnosti>
+  </budova>
+  <budova id="4">
+    <kod>SPH</kod>
+    <nazev>Sportovní hala</nazev>
+    <mistnosti>
+      <mistnost id="19">
+        <kod>SPH-2-KNI01</kod>
+        <podlazi>2</podlazi>
+        <typ id="8">
+          <nazev>Knihovna</nazev>
+        </typ>
+      </mistnost>
+      <mistnost id="20">
+        <kod>SPH-2-KNI02</kod>
+        <podlazi>2</podlazi>
+        <typ id="8">
+          <nazev>Knihovna</nazev>
+        </typ>
+      </mistnost>
+      <mistnost id="27">
+        <kod>SPH-2-KNI03</kod>
+        <podlazi>2</podlazi>
+        <typ id="8">
+          <nazev>Knihovna</nazev>
+        </typ>
+      </mistnost>
+      <mistnost id="28">
+        <kod>SPH-3-SKL01</kod>
+        <podlazi>3</podlazi>
+        <typ id="4">
+          <nazev>Sklad</nazev>
+        </typ>
+      </mistnost>
+      <mistnost id="14">
+        <kod>SPH-3-WC01</kod>
+        <podlazi>3</podlazi>
+        <typ id="3">
+          <nazev>WC</nazev>
+        </typ>
+      </mistnost>
+      <mistnost id="17">
+        <kod>SPH-1-WC02</kod>
+        <podlazi>1</podlazi>
+        <typ id="3">
+          <nazev>WC</nazev>
+        </typ>
+      </mistnost>
+      <mistnost id="26">
+        <kod>SPH-3-WC03</kod>
+        <podlazi>3</podlazi>
+        <typ id="3">
+          <nazev>WC</nazev>
+        </typ>
+      </mistnost>
+    </mistnosti>
+  </budova>
+  <budova id="5">
+    <kod>ZDS</kod>
+    <nazev>Zdravotnické středisko</nazev>
+    <mistnosti>
+      <mistnost id="18">
+        <kod>ZDS-2-KAN01</kod>
+        <podlazi>2</podlazi>
+        <typ id="1">
+          <nazev>Kancelář</nazev>
+        </typ>
+      </mistnost>
+      <mistnost id="12">
+        <kod>ZDS--1-KNI01</kod>
+        <podlazi>-1</podlazi>
+        <typ id="8">
+          <nazev>Knihovna</nazev>
+        </typ>
+      </mistnost>
+      <mistnost id="15">
+        <kod>ZDS-2-KUC01</kod>
+        <podlazi>2</podlazi>
+        <typ id="7">
+          <nazev>Kuchyň</nazev>
+        </typ>
+      </mistnost>
+      <mistnost id="30">
+        <kod>ZDS-2-SKL01</kod>
+        <podlazi>2</podlazi>
+        <typ id="4">
+          <nazev>Sklad</nazev>
+        </typ>
+      </mistnost>
+      <mistnost id="13">
+        <kod>ZDS-1-UČE01</kod>
+        <podlazi>1</podlazi>
+        <typ id="2">
+          <nazev>Učebna</nazev>
+        </typ>
+      </mistnost>
+      <mistnost id="31">
+        <kod>ZDS-1-UČE02</kod>
+        <podlazi>1</podlazi>
+        <typ id="2">
+          <nazev>Učebna</nazev>
+        </typ>
+      </mistnost>
+      <mistnost id="22">
+        <kod>ZDS--1-ZAS01</kod>
+        <podlazi>-1</podlazi>
+        <typ id="6">
+          <nazev>Zasedací místnost</nazev>
+        </typ>
+      </mistnost>
+    </mistnosti>
+  </budova>
+</budovy>

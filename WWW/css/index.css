@@ -1,0 +1,19 @@
+button{
+    background-color: #72bfe8;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 19px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    color: black;
+    font-weight: bold;
+}
+
+#loadMessage, #validMessage{
+    font-size: 19px;
+    padding: 10px 20px;
+}
