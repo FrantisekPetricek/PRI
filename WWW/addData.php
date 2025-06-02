@@ -1,7 +1,6 @@
 <?php
 require_once 'db.php';
 
-$conn = dbConnect();
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $id_bud = $_POST["id_bud"];
@@ -23,6 +22,7 @@ if (isset($_GET['success'])) {
     $zprava = "<p id = 'messNegative'>Chyba při vkládání místnosti.</p>";
 }
 
+$conn = dbConnect();
 
 $budovy = $conn->query("SELECT id, nazev FROM budovy");
 $typy = $conn->query("SELECT id, nazev FROM mistnosti_typ");
